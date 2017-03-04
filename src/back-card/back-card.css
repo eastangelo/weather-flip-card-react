@@ -1,0 +1,4 @@
+.flipCard__flipper__back {
+    transform: rotateY(180deg);
+    background: #1a89d9;
+}

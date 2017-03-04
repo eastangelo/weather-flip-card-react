@@ -1,0 +1,60 @@
+.flipCard__flipper__front {
+    z-index: 2;
+    transform: rotateY(0deg);
+    background: #48c3d9;
+}
+
+.flipCard__flipper__front__header{
+    padding: 15px 20px 0;
+}
+.flipCard__flipper__front__header--location{
+    float: left;
+    font-size: 22px;
+}
+.flipCard__flipper__front__header--degrees{
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+}
+.flipCard__flipper__front__icon-weather{
+    padding: 50px 0 40px;
+    text-align: center;
+    font-size: 100px;
+}
+
+.flipCard__flipper__front__measure{
+    padding: 10px;
+}
+.flipCard__flipper__front__measure--wind,
+.flipCard__flipper__front__measure--humidity{
+    float: left;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+.flipCard__flipper__front__measure--humidity{
+    float: right;
+}
+.flipCard__flipper__front__currentDay > div{
+    float: left;
+    width: calc(100% / 7);
+    height: 38px;
+    background: #1799b0;
+    line-height: 38px;
+    text-align: center;
+    font-size: 10px;
+    font-weight: lighter;
+    text-transform: capitalize;
+    box-sizing: border-box;
+    border-right: 1px solid #48c3d9;
+    border-left: 1px solid #48c3d9;
+    display: inline-block;
+}
+.flipCard__flipper__front__currentDay > div.currentDay{
+    background: #48c3d9;
+}
+.flipCard__flipper__front__currentDay .flipCard__flipper__front__currentDay--monday{
+    border-left: 1px solid #1799b0;
+}
+.flipCard__flipper__front__currentDay .flipCard__flipper__front__currentDay--sunday{
+    border-right: 1px solid #1799b0;
+}
